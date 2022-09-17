@@ -42,3 +42,51 @@
     width: 200px;
     flex: none;
 }
+
+@media (max-width:1250px){
+    .box1{
+        flex-wrap: wrap;
+    }
+
+    .image{
+        width: 45%
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .question{
+        font-size: 20px;
+    }
+
+    .answer{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:620px){
+    .box1{
+        flex-wrap: wrap;
+    }
+
+    .image{
+        width: 60%
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .question{
+        font-size: 14px;
+    }
+
+    .answer{
+        font-size: 12px;
+    }
+
+    .ending{
+        font-size: 40px;
+    }
+}
